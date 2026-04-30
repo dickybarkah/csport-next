@@ -15,7 +15,7 @@
 
 # next.js
 /.next/
-/out/
+# Note: /out/ IS committed for cPanel static deploy
 
 # production
 /build
@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# production HTML snapshots — dev reference only
+scripts/_prod-snapshot/

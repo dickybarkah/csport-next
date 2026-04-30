@@ -1,0 +1,19 @@
+{
+  "name": "CSport Center",
+  "tagline": "A Sporty Stop for Every Family Member",
+  "contact": {
+    "email": "halo@csportcenter.com",
+    "whatsapp": "6282342679040",
+    "whatsappDisplay": "0823-4267-9040",
+    "whatsappCta": "https://wa.link/itpm2k",
+    "instagram": "https://www.instagram.com/csportcenter/",
+    "address": "Sekolah Cikal & Rumah Main Cikal Lebak Bulus (Building D)",
+    "addressLine2": "Jl. Lebak Bulus II No.62, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430"
+  },
+  "booking": {
+    "base": "https://megatix.co.id/white-label/"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/csportcenter/"
+  }
+}

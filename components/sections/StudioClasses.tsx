@@ -5,6 +5,7 @@ type ClassItem = {
   title: string;
   image: string;
   body: string;
+  href?: string;
   modal?: { title: string; targets: { label: string; src: string }[] };
 };
 
@@ -13,13 +14,7 @@ const CLASSES: ClassItem[] = [
     title: "Reformer Pilates",
     image: "/uploads/class-reformer.png",
     body: "Build core strength and improve posture with South Jakarta’s premium, low-impact Reformer Pilates for total body flexibility and wellness.",
-    modal: {
-      title: "Book Reformer Pilates",
-      targets: [
-        { label: "Booking dengan Friska", src: "https://megatix.co.id/white-label/reformer-pilates-by-friska" },
-        { label: "Booking dengan Zahra",  src: "https://megatix.co.id/white-label/reformer-pilates-by-zahra"  },
-      ],
-    },
+    href: "/schedule-reformerpilates/",
   },
   {
     title: "Balance Body Flow",
@@ -116,7 +111,7 @@ function ClassCard({ c }: { c: ClassItem }) {
           }
         />
       ) : (
-        <a href="#contact" className={bookNowClass} style={bookNowStyle}>
+        <a href={c.href ?? "#contact"} className={bookNowClass} style={bookNowStyle}>
           Book Now
           <ArrowChip />
         </a>
